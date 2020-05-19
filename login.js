@@ -9,10 +9,19 @@ function validate()
         alert("Fields should not be empty");    
     }
     
-    else if(username.value.match(mailformat)==False){
-        alert("Enter a email address as username");
+    else if(ValidateEmail(username)==False){
+        alert("You have entered an invalid email address!");
     }
     else{
         alert("All inputs are valid");
     }
+}
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(username.value))
+  {
+    return (true)
+  }
+    
+    return (false)
 }
