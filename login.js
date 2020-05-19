@@ -9,7 +9,7 @@ function validate()
         alert("Fields should not be empty");    
     }
     
-    else if(inputText.value.match(mailformat)==False){
+    else if(username.match(mailformat)==False){
         alert("Enter a email address as username");
     }
     else{
