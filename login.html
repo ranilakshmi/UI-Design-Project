@@ -47,7 +47,7 @@
             .bg3{
               background-color:navy;
               color:white;
-              padding:
+              padding:5px;
             }
             .button1{
                 color:deepskyblue;
@@ -56,6 +56,7 @@
         </style>
     </head>
     <body>
+        <script src="login.js"></script>
         <div class="fluid-container">
             <div class="row heading1">
                 <h1 >LOGIN</h1>
@@ -68,8 +69,8 @@
                 <div class="row bg2">
                     <div class="btn-group" style="float:right">
                         
-                        <a href="Login.html" class="btn btn-default button1" role="button">Login</a>
-                        <a href="Register.html" class="btn btn-default" role="button">Register</a>
+                        <a href="login.html" class="btn btn-default button1" role="button">Login</a>
+                        <a href="register.html" class="btn btn-default" role="button">Register</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +90,7 @@
                         <div class="checkbox">
                             <label><input type="checkbox"> Remember me</label>
                         </div>
-                        <button type="submit" class="btn btn-default button1">Submit</button>
+                        <button type="submit" class="btn btn-default button1" onclick="validate()">Submit</button>
                     </form>
                     <div><a href="forgot password.html">Forgot your password?</a></div>
                     <div>New User?<br>
@@ -104,7 +105,7 @@
                             <div id="collapse1" class="panel">
                               <ul class="list-group">
                                 <li class="list-group-item"><a href="Home page.html">Home</a> </li>
-                                <li class="list-group-item"><a href="about me.html">About Me</a></li>
+                                <li class="list-group-item"><a href="About Me.html">About Me</a></li>
                                 <li class="list-group-item"><a href="achievements and activities.html">Achievements and Activities</a></li>
                               </ul>
                             </div>

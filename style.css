@@ -1,0 +1,36 @@
+body{
+    background-image:url("background.png");
+}
+.heading1{
+    background-color:blue;
+    padding:1%;
+    color:ivory;
+    text-align: center;
+}
+.footer{
+    background-color:darkgray;
+    color: darkblue;
+    text-align: center;
+    padding: 2%;
+}
+.bg1{
+    background-color: darkturquoise;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    height:auto;
+}
+.bg2{
+    background-color:darkcyan;
+    padding:5px; 
+}
+.bg3{
+  background-color:navy;
+  color:white;
+  padding:5 px;
+}
+.button1{
+    color:deepskyblue;} 
