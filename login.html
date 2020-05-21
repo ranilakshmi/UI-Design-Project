@@ -7,17 +7,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="main()">
         <script src="login.js"></script>
         <div class="fluid-container">
             <div class="row heading1">
                 <h1 >LOGIN</h1>
             </div>
-            <div class="row bg2">
-                    <button type="button" class="btn btn-default" style="float: right;">
-                        <span class="glyphicon glyphicon-search"></span> Search
-                      </button><br>
-                </div>
                 <div class="row bg2">
                     <div class="btn-group" style="float:right">
                         
@@ -50,7 +45,7 @@
                     
 					</div>
                 </div>
-                <div class="col-sm-3" style="background-color: dodgerblue;">
+                <div class="col-sm-3 bg4">
                     <div class="container">
                         <div class="panel-group">
                           <div class="panel panel-default">
@@ -64,6 +59,12 @@
                           </div>
                         </div>
                       </div>
+                      <div  id="clock">
+                
+                    </div>
+                    <div>
+                        <p id="quote"></p>
+                    </div>
                     </div>
             </div>
             <footer class="footer">
