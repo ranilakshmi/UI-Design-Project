@@ -7,15 +7,16 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body onload="main()">
+    <body onload="startTime(),swapquote()">
         <script src="login.js"></script>
         <div class="fluid-container">
             <div class="row heading1">
                 <h1 >LOGIN</h1>
             </div>
+            <div class="row" id="quotes">
                 <div class="row bg2">
                     <div class="btn-group" style="float:right">
-                        
+
                         <a href="login.html" class="btn btn-default button1" role="button">Login</a>
                         <a href="register.html" class="btn btn-default" role="button">Register</a>
                     </div>
@@ -25,7 +26,12 @@
                 <div class="col-sm-9 bg1">
                     <h2>Login</h2>
 					<div class="box box1">
-					<form>
+					<form onsubmit="return validate();" action="index.html">
+                        <div class="form-group">
+                        <label for="user">Username:</label>
+                        <input type="text" class="form-control" id="user">
+                    </div>
+
                         <div class="form-group">
                             <label for="email">Email address:</label>
                                 <input type="email" class="form-control" id="email">
@@ -37,12 +43,12 @@
                         <div class="checkbox">
                             <label><input type="checkbox"> Remember me</label>
                         </div>
-                        <button type="submit" class="btn btn-default button1" onclick="validate()">Submit</button>
+                        <button type="submit" class="btn btn-default button1">Submit</button>
                     </form>
                     <div><a href="forgot password.html">Forgot your password?</a></div>
                     <div>New User?<br>
                         <a href="register.html">Register</a></div>
-                    
+
 					</div>
                 </div>
                 <div class="col-sm-3 bg4">
@@ -60,7 +66,7 @@
                         </div>
                       </div>
                       <div  id="clock">
-                
+
                     </div>
                     <div>
                         <p id="quote"></p>

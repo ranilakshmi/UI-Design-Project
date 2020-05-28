@@ -25,7 +25,7 @@ body{
 }
 .bg2{
     background-color:darkcyan;
-    padding:5px; 
+    padding:5px;
 }
 .bg3{
   background-color:navy;
@@ -39,11 +39,11 @@ body{
     border-color: gray;
 }
 .button1{
-    color:deepskyblue;} 
+    color:deepskyblue;}
     .
 .button1{
         color:white;
-        background-color:blue;} 
+        background-color:blue;}
 .box1{
         background-color:white;
         color:blue;
@@ -64,7 +64,7 @@ body{
         color:ivory;
         text-align: center;
     }
-@import url('https://fonts.googleapis.com/css?family=Orbitron');   
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 #clock {
     background-color: lightseagreen;
     font-family: 'Orbitron', sans-serif;
@@ -75,4 +75,17 @@ body{
     padding-bottom: 10%;
     padding-right:4%;
     padding-left: 4%;
+}
+#quotes{
+    background-color: white;
+    color:green;
+    font-size: larger;
+    font-style: italic;
+    font-family: cursive;
+    padding-top:20px;
+    padding-bottom:15px;
+    padding-top:30px;
+    padding-right:30px;
+    margin-left: auto;
+    margin-right: auto;
 }

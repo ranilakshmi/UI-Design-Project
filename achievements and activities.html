@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Header</title>
+        <title>Achievements and Activities</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body onload="startTime()">
+    <body onload="startTime(),swapquote()" >
         <script src="login.js"></script>
         <div class="fluid-container">
             <div class="row heading1">
-                <h1>Achievements and Activities</h1>
+                <h1>My website</h1>
             </div>
-            <div class="row bg2">
-                <button type="button" class="btn btn-default" style="float: right;">
-                    <span class="glyphicon glyphicon-search"></span> Search
-                </button><br>
+            <div class="row" id ="quotes">
             </div>
             <div class="row bg2">
                 <div class="btn-group" style="float:right">
@@ -28,46 +25,36 @@
                 <div class="col-sm-9 bg1 center">
                     <h2>Achievements and Activities</h2>
                     <p>
-                    <ul>
-                        <li>
-                            Scored 98.75% in higher secondary examination conducted by Kerala Board
-                        </li>
-                        <li>
-                            Scored 90% percentile in JEE Mains
-                        </li>
-                        <li>
-                          Was among the top 1% of of the school board at class XII level
-                        </li>
-                        <li>
-                            Was eligible for INSPIRE scholarship
-                        </li>
-                        <li>
-                            Participated in many quiz competitions and won prizes in some of it
-                        </li>
-                    </ul>
+                        <ul>
+                            <li>Scored 98.75% in higher secondary examination conducted by Kerala Board</li>
+                            <li>Scored 90% percentile in JEE Mains</li>
+                            <li>Was among the top 1% of of the school board at class XII level</li>
+                            <lI>Was eligible for INSPIRE scholarship</lI>
+                            <li>Participated in many quiz competitions and won prizes in some of it</li>
+                        </ul>
                     </p>
-            </div>
-            <div class="col-sm-3" style="background-color: dodgerblue;">
-                <div class="container">
-                    <div class="panel-group">
-                        <div class="panel panel-default">
-                            <div id="collapse1" class="panel">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><a href="index.html">Home</a> </li>
-                                    <li class="list-group-item "><a href="About Me.html">About Me</a></li>
-                                    <li class="list-group-item bg3">Achievements and Activities</li>
-                                </ul>
+                </div>
+                <div class="col-sm-3" style="background-color: dodgerblue;">
+                    <div class="container">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div id="collapse1" class="panel">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="index.html">Home</a> </li>
+                                        <li class="list-group-item "><a href="About Me.html">About Me</a></li>
+                                        <li class="list-group-item bg3">Achievements and Activities</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="clock">
+                    <div id="clock">
+                    </div>
                 </div>
             </div>
-        </div>
-        <footer class="footer">
-            <h3>Contact Me</h3>
-            <p>aryarn@am.students.amrita.edu</p>
-        </footer>
-    </body>
+            <footer class="footer">
+                <h3>Contact Me</h3>
+                <p>aryarn@am.students.amrita.edu</p>
+            </footer>
+     </body>
 </html>
